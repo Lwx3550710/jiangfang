@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/takefood/main",
+    "pages/my/main",
+    "pages/myinfo/main",
+    "pages/invest/main",
+    "pages/invite/main",
+    "pages/about/main",
+    "pages/redpacket/main",
+    "pages/member/main",
+    "pages/address/main",
+    "pages/add-address/main",
+    "pages/coupons/main",
+    "pages/idea/main",
+    "pages/orderlist/main",
+    "pages/orderdetail/main",
+    "pages/orderevaluate/main",
+    "pages/kf/main",
+    "pages/wallet/main",
+    "pages/tradepinone/main",
+    "pages/tradepintwo/main",
+    "pages/recharge/main",
+    "pages/diningway/main",
+    "pages/confirm/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "匠方",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "backgroundColor": "#fff",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [{
+      "text": "点餐",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/diancan.png",
+      "selectedIconPath": "static/tabs/diancan-active.png"
+    }, {
+      "text": "取餐",
+      "pagePath": "pages/takefood/main",
+      "iconPath": "static/tabs/qucan.png",
+      "selectedIconPath": "static/tabs/qucan-active.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/my/main",
+      "iconPath": "static/tabs/my.png",
+      "selectedIconPath": "static/tabs/my-active.png"
+    }],
+    "position": "bottom"
+  }
+}
